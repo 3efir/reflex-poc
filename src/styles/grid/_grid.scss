@@ -1,0 +1,25 @@
+.#{$reflex-prefix}container {
+    max-width: 100%;
+}
+@media (min-width: $reflex-xs) {
+    @include change-grid-spacing($reflex-grid-spacing-xs, $reflex-container-spacing-xs);
+}
+
+@media (min-width: $reflex-sm) {
+    @include change-grid-spacing($reflex-grid-spacing-sm, $reflex-container-spacing-sm);
+}
+
+@media (min-width: $reflex-md) {
+    @include change-grid-spacing($reflex-grid-spacing-md, $reflex-container-spacing-md);
+}
+
+@media (min-width: $reflex-lg) {
+    @include change-grid-spacing($reflex-grid-spacing-lg, $reflex-container-spacing-lg);
+}
+
+@media (min-width: $reflex-xlg) {
+    @include change-grid-spacing($reflex-grid-spacing-xlg, $reflex-container-spacing-xlg);
+    .#{$reflex-prefix}container {
+        max-width: 976px;
+    }
+}

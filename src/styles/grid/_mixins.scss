@@ -1,0 +1,25 @@
+@mixin change-grid-spacing($grid-spacing, $container-spacing) {
+    .#{$reflex-prefix}container,
+    .#{$reflex-prefix}container-full {
+        padding-right: $container-spacing;
+        padding-left: $container-spacing;
+
+        .#{$reflex-prefix}grid {
+            margin-right: -$grid-spacing;
+            margin-left: -$grid-spacing;
+        }
+    }
+    [class*="#{$reflex-prefix}col-"] {
+        padding: $grid-spacing;
+        .#{$reflex-prefix}grid {
+            margin: -$grid-spacing;
+        }
+    }
+    .#{$reflex-prefix}col-bleed-x {
+        padding: $grid-spacing 0;
+    }
+    .#{$reflex-prefix}col-bleed-y {
+        padding: 0 $grid-spacing;
+    }
+    
+}
