@@ -5,7 +5,7 @@ Simple customization of [reflex](http://reflexgrid.com/docs/)
 ### Installing
 
 ```
-git clone https://github.com/levaleks/reflex-poc.git
+git clone https://github.com/3efir/reflex-poc.git
 cd reflex-poc
 npm install
 ```
