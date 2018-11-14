@@ -1,6 +1,6 @@
 # reflex-poc
 
-Simple customization of * [reflex](http://reflexgrid.com/docs/)
+Simple customization of [reflex](http://reflexgrid.com/docs/)
 
 ### Installing
 
